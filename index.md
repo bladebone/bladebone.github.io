@@ -2,122 +2,175 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# 2017년 회고
 
-[Link to another page](another-page).
+### 키워드
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# [](#header-1)Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## [](#header-2)Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### [](#header-3)Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
+> #scala, #nodejs,
+> #코딩 호러의 이펙티브 프로그래밍, #폴리글랏 프로그래밍,
+> #누구나 쉽게 스칼라+플레이, #실용주의 프로그래머,
+> #마이크로소프트웨어 390호, #유시민의 공감필법, #에어비앤비 스토리,
+> #나는 프로그래머다, #okkycon
+> #2017년 회고
 
 
-### Definition lists can be used with HTML syntax.
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+# # #
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+### 분기점
 
-```
-The final element.
-```
+안녕하세요, 8년차지만 만년 쪼렙 개발자, bladebone입니다.
+
+이런 것도 인생의 분기점인가요?
+지난 회사를 나온 후로 내가 진짜 좋아하는 일이 무엇일까를 두고 고민했습니다. 식구들도 있고, 퇴사 하기에 적지 않은 나이기도 하니까요. 마지막 기회라고 생각했습니다. 그런데 그 사이의 시간이 무색하게도 오랫만에 새로운 직장에서 다시 코드를 대하는 순간, 확실하게 알 수 있었습니다.
+'아, 나 이거 진짜 좋아하는구나.'
+그 때의 희열을 잊을 수가 없습니다. 너무 재미있어 미치겠는 겁니다. 아무리 회사에서 업무 내/외적으로, 혹은 가정문제로, 아니면 다른 문제로 이빠이 스트레스 받아도 코딩에 들어가면 아무 것도 안보여요. 이건 문명시리즈와는 비교도 안되는 타임머신입니다. 가까운데 두고 너무 멀리 돌아온 것 같아요. 영어공부와 육아로 한 해를 보내고, 한 동안 본격적인 개발을 쉬어보니 더욱 분명해 지네요.
+
+깨닫고 나니까 마음이 조급해 집니다. 이제 30대 후반인데, 너무 늦게 열정이 생겨버렸어요.
+열정이 생기니 사람이 변하긴 합디다. 출근길도 아까워서 기어코 공부할 방법을 만들어 냅니다. 자기개발서 같은거 필요 없더라구요.
+저에게 올해는, 그 결과입니다.
+
+아무쪼록 일기같은 이 글이 업계에 막 발을 들인 뉴비 분들이나, 저처럼 뒤늦게 열정을 되찾으신 분들이 길을 찾아가시는데 도움이 되었으면 합니다.
+
+
+
+### swift3 with cocoa framework
+
+연초에는 작년에 이어 스위프트 공부를 하고 있었습니다. 몇 가지 앱 만들만 한 아이디어가 있었거든요.
+
+![](http://image.aladin.co.kr/product/9609/98/cover/k322535533_1.jpg)
+[꼼꼼한 재은 씨의 스위프트 3 기본편 - 이재은](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=96099855)
+
+하지만, 작년 말 둘째 출산 후에는 작심하고 공부하기가 어렵더라구요. 목마르면 우물을 팠겠지만, 이 때는 아니었나 봅니다. 보다 말다, 띄엄띄엄 보면서 기본 문법, 코코아 프레임워크 기본기 이상 진도를 못뺐습니다.
+
+하지만 맛은 봤죠.
+
+이쪽 일이 다 그렇겠지만, 역시 문제는 코코아 프레임워크와 기존에 업계에 누적된 objective c++ 라이브러리, 새로운 언어에 어울리는 누적된 설계지식이 부족하다는 거지 스위프트 자체가 아니더군요. 새로운 플랫폼에서 개발한다는건 축구선수가 풋살을 배우는 것과 비슷하지 않을까요? 새로운 언어 배우려고 하면 걱정하기도 하던데, 그럴 필요 없더라구요. 재미있거든요. 요지가 같으니까.
+
+
+
+### 나는 프로그래머다
+
+새로운 직장으로 옮기면서 자가용으로 출/퇴근하게 되었는데요, 운전중에 뭘 할 수가 없으니 그렇게 답답할 수가 없더라구요. 궁여지책으로 팟캐스트 한 번 들어볼까 싶어서 찾다가 우연히 그 유명한 '나는 프로그래머다'를 알게 되었습니다. 마침 열정이 불타오르기 시작할 때라, 몇 달간 출퇴근하며 정주행 끝내버렸습니다. 청취하며 알게된 업계 트랜드와 기존 지식이 시너지가 나더라구요. 그래서 몇 가지 책을 보게 되었습니다. ~~(나는 프로그래머다 책 안샀다는건 비ㅁ..)~~
+
+
+
+### 기본이론
+
+저는 비전공자입니다. 국민학교 XT/AT 시절부터 컴퓨터 만졌고, 중학교 때 리눅스, c 같은거 좀 가지고 놀면서 학교 친구들 PC에서 메모리 절약해서 게임 돌아가게 만들어 주는 낙으로 살고, 뭐 여차저차해서 전산이 뼛속에 박혀있지만 본격적으로 배우지 않아 정형화되지는 않은, 이정도면 업계에 널린 평범한 비전공자지요. 그러다 보니 전공자에 대한 기대치라고 해야하나, 전공 커리큘럼에서 얻을 수 있는 컴퓨팅 밑바탕 지식에 대해 항상 목말라 있습니다. 아, 내가 저걸 진작에 알았으면 그따구로 설계 안했을껀데... 같은거 있잖아요. 한 번은 집고 넘어가야 한다는 OS부터 자료구조, 이산수학, 네트워크나 그래픽스 원론 등, 10년만 젊었으면 대학이라도 다시 가지 싶은 심정입니다. 공부 우선순위에서 자꾸 밀리는 넘들이니까요.
+
+그래서 지난 회사에서 나오면서 제일 먼저 디자인 패턴, 자바 기본서, 리팩토링 책부터 훑었습니다. 하지만 스위프트와 같은 이유로 손 놓고 있다가 팟캐스트 듣게 되면서 정신이 바짝 나더라구요. 와, 이런 태도로 처음부터 성장한 사람들은 대체 어떻게 개발하지? 그래서 조금 다른 방향으로 접근해 봤습니다. 잘하는 사람 흉내내기요.
+
+![](http://image.aladin.co.kr/product/2481/71/cover/8998139170_1.jpg)
+[코딩 호러의 이펙티브 프로그래밍 - Jeff Atwood](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=24817127)
+
+![](http://image.aladin.co.kr/product/3720/43/cover/8968480869_1.jpg)
+[폴리글랏 프로그래밍 - 임백준](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=37204348)
+
+![](http://image.aladin.co.kr/product/3878/67/cover/8966261035_1.jpg)
+[실용주의 프로그래머 - David Thomas, Andrew Hunt](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=38786788)
+
+다행이랄까, 제가 선로를 이탈하지는 않았더라구요.
+만류귀종이라잖아요. 결국에는 상식적인 것, 선험자들의 경험을 배웠으면 시행착오가 적었겠지만, 그래도 방향은 옳다는데서 안도했습니다. 살면서 주변사람들 얘기 들어보니 어딜가나 결국엔 상식이더라구요. 그러다보니 이 책들의 한마디 한마디가 그렇게 달달할 수 없었습니다.
+
+이런 류의 추천도서들 요새 많지요, 저도 독서 위시리스트에 담아뒀습니다. 내년엔 더 많이 읽을 수 있도록 ~~워라벨~~시간이 났으면 좋겠습니다.
+
+- 2017년 독서 리스트
+  - 꼼꼼한 재은 씨의 스위프트 3 기본편 - 이재은
+  - 코딩 호러의 이펙티브 프로그래밍 - 제프 앳우드
+  - 폴리글랏 프로그래밍 - 임백준
+  - 그림으로 배우는 HTTP & Network Basic - 우에노 센
+  - 누구나 쉽게 스칼라+플레이 - 고락윤
+  - 실용주의 프로그래머 - 앤드류 헌트, 데이비드 토머스
+  - 마이크로소프트웨어 389, 390호
+- (비 개발서)
+  - 유시민의 공감필법 - 유시민
+  - 에어비앤비 스토리 - 레이 갤러거
+
+- 2018년 독서 위시리스트
+  - 앤터프라이즈 애플리케이션 아키텍쳐 패턴 - 마틴 파울러
+  - 코드 - 찰스 팻졸드
+  - 운영체제 - 실버셰스
+  - 코드 컴플리트 - 스티브 맥코넬
+  - 프로그래머를 위한 선형대수 - 하라오카 카즈유키
+  - 이펙티브 디버깅 - 디오미디스 스피넬리스
+  - 소프트스킬 - 존 손메스
+  - 읽기 좋은 코드가 좋은 코드다 - 더스틴 보즈웰
+  - 대용량 아키텍처와 성능튜닝 - 조대협
+  - 소프트웨어 개발과 테스트 - 조대협
+  - 마이크로서비스 아키텍처 구축 - 샘 뉴먼
+  - 애자일 & 스크럼 프로젝트 관리 - 이재왕
+  - 행복한 프로그래밍 - 임백준
+  - 소프트웨어 장인 - 산드로 만쿠소
+- (비 개발서)
+  - 칼의 노래 - 김훈
+  - 완벽한 공부법 - 고영성, 신영준
+  - 어떻게 읽을 것인가 - 고영성
+  - 사피엔스 - 유발 하라리
+  - 28 - 정유정
+  - 언어의 온도 - 이기주
+  - 개인주의자 선언 - 문유석
+  - 종의 기원 - 정유정
+
+~~적고 나서 보니 편향적인거 같..~~
+
+아, 독서하면 빼놓을 수 없지요, 마이크로소프트웨어가 복간되었다는 희소식을 뒤늦게 접하고 부랴부랴 사다 읽고 있습니다. 어릴 때 마이컴이랑 같이 사서 보던 추억이 새록새록 하네요.~~(옛날엔 두꺼웠는데...)~~
+
+그래도 기본이론 공부를 도저히 놓을 수 없어서 일단 온라인으로 자료구조, 디자인패턴 정도는 주기적으로 공부하고 있습니다. 적어도 6개월에 한번? ~~볼 때마다 새롭네요~~
+
+
+
+### 트렌드
+
+이번엔 언어 얘기좀 해볼까요?
+여기저기서 줏어들은 바로는 요새 언어 하면 functional programming 패러다임과 Javascript를 빼놓을 수 없을 것 같아요. 그래서 저도 functional 스터디 시작했습니다. 일단 하스켈은 말고 스칼라로요. 이미 몇몇 국가에서는 메인스트림 언어까지 올라왔다네요.
+
+해보니까 이거, 완전 재미있네요? 취향저격이더라구요. 문제는 갑자기 회사에서 시작된 슈퍼 인텐시브 코스 하하; 철야 다음 날 야근, 익숙하시죠? ㅋㅋ
+
+공부는 처음에는 기술블로그 훑어보다가 나중에 책으로 바꿨어요. 정리가 깔끔하니 좋더라구요. 대신 다른 언어 기반이 좀 있는게 좋을 듯?
+
+![](http://image.aladin.co.kr/product/9505/58/cover/8968484724_1.jpg)
+[누구나 쉽게 스칼라+플레이 - 고락윤](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=95055830)
+
+빨리 다시 시작하고 싶습니다. 하지만 일단 새롭게 재미붙인 노드부터 ㅎㅎㅎ 이벤트 드리븐도 재미있어요!
+
+
+
+### NodeJS
+
+슈퍼 인텐시브 코스가 어느 정도 정리되고 여유가 생긴 후로는 접근법을 project driven으로 바꿨습니다. 개인적으로 기획하고 있는 플젝이 있는데요, 프론트는 spa로 단순하지만 백단이 바쁜, 그리고 마이크로 서비스 여러개를 붙여야 더 효율이 나는 플젝입니다. 업무 중간중간 짬나면 필요한 기술들 찾아보고 overview 수준으로 공부하다가 NodeJS로 결정하게 되었습니다. 스칼라가 땡겼지만 일단 서비스를 빠르게 올리고 추후 아키텍쳐를 전환하는 방법도 좋을 것 같더라구요.
+
+NodeJS는 정말 자료가 많았습니다. 여기까지 읽으신 분이라면 다들 아실 생활코딩부터 시작해서 정말 많은 기초강좌들이 있더라구요. 그래서 비슷한 내용을 계속해서 따라하면서 몸에 익숙하게 만들고 있습니다. 지금 3~4회차? 정도 splint 뛴 거 같아요. 다른 언어 기반이 있다 보니 기초 잡는데는 이렇게 가볍게 주기적으로 반복하는게 도움이 되더라구요.
+
+문제는 개발환경이었습니다. 집에서야 맥북이니 웹스톰으로 개발하는데, 회사는 보안이 진짜 너무했거든요.
+
+
+
+### 개발환경
+
+근무중인 고객사의 보안이 너무 강해서 어떤 방법을 써도 npm i 를 돌릴 수가 없었습니다. 외부로 유출이 가능할 만한 거의 모든 수단이 막혀있더라구요. 어떻게 뚫더라도 극강의 관제때문에 그냥 답없다는 결론이 나왔습니다. 그래서 해결책으로, 클라우드 서버를 쓰기로 했습니다. 폰으로요.
+아이디어는 간단합니다. 클라우드 서버에 폰으로 ssh 붙고 vim으로 개발하는거죠. 문제는 이상한데서 발생했습니다. vim의 재미를 알아버린겁니다 하하; 급기야 온갖 에디터에도 vim플러그인을 깔게 되었...
+여러분 vim 써보세요, 두 번 쓰세요.
+
+그리고 제가 운이 없는 건지, cvs, svn만 써보고 아직 실무에서 git을 못써봤는데 이번부터 본격적으로 써보게 되었습니다. ~~보안은 물론 git도 막습니다~~ 자꾸 주책없이 육성으로 오오~ 오오~ 터지네요.
+
+프론트쪽은 글 작성시점 기준으로 3대장인 앵귤라, 리액트, 뷰 중 대세인 뷰로 잡았습니다. ~~하지만 일단 노드부터 좀~~
+
+
+
+### 업무=공부
+
+개인 공부도 좋지만, 역시 가장 많은 시간을 할애하는 업무를 공부삼는 것도 좋겠죠. 간단한 업무단위도 설계나 프로세스 정의를 한다던지, 수 천 라인의 쿼리를 짠다던지, 본업이 의심될 정도로 jquery 코딩을 한다던지 하는 업계 일상다반사는 물론이요, 많은 사람이 오가는 플젝에서 보통 잘 쓰이지 않는 쓰레드나 제너럴 개념을 활용한다던지, 람다는 못써도 함수형 패러다임으로 코딩해본다던지 하는 나만의 재미요소를 만들면서 일을 하니 집중해서 빠져버리면 업무시간도 즐거운 타임머신이지요.
+
+
+
+### 대외활동
+
+한편, 제가 올해 뼈져리게 후회한 대표적인 사실로 대외활동의 부재를 제일 앞에 꼽아보고 싶습니다.
+경력이니, 프로젝트니, 기본기니, 다 좋은데 제가 아무리 뭘 할 줄 안다 해도 적극적으로, 구체적으로 알리지 않으면 다른 사람들은 알 수 없다는 단순한 진리를 깨달았습니다. 오랫동안 채용하는 입장이었지만 이 간단한 역지사지를 하는 데 수 년이 걸렸네요.
+저는 채용할 때 전산적인 사고방식의 뼈대와 논리 관련 지능을 가장 우선으로 생각했습니다. 기술이나 플랫폼은 뼈대가 있으면 언제든 익숙해 질 수 있는데 뼈대나 지능은 안되니까요. 이게 신입 위주로만 채용하면서 빠진 딜레마인 것 같습니다. 스스로가 경력자면서도, 디자인패턴을 보면서도 포석의 위력을 간과한거죠. 반성합니다.
+이 블로그 시작 이유의 절반 쯤은 이런 반성입니다. 문서화와 흔적, 많은 온라인 상의 선배님들께 감사드립니다.
+
+비슷한 이유로 남들 한다는 커뮤니티(오키나 페북 등의)도 기여자로서 활동하려고 노력하게 되고, 주변 스터디 그룹도 찾아보게 되었습니다. 무엇보다 주변 개발자들과의 관계를 더 소중하게 생각하게 되었다는게 가장 큰 소득인 것 같네요.
+
+얼마 전, 컨퍼런스를 다녀왔습니다. okkycon이었는데요, 주제가 커뮤니케이션, 소통이었습니다. 직장 내에서의 소통도 물론 중요하지만, 직장 밖, 세상과의 소통도 중요한 시대인 것 같습니다.
